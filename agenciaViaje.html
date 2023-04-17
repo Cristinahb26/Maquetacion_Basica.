@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./agenciaViajes.css">
+    <title>Agencia de viajes</title>
+</head>
+<body>
+    <main>
+
+        <header class="inicio">
+
+                 <h2>El mundo es demasiado bonito como<br> para viajar sólo por internet.<br> Ven viaja con nosotros</h2>
+
+                 <h1>Viaja <font color="white">Seguro</font></h1>
+        </header>
+
+        <section class="descripcion">
+
+              <article class="parrafo">
+
+                  <h1>¿Qué es ViajaSeguro?</h1>
+                  <h2>Somos una agencia con mas de 20 años de experiencia en el mercado. Que te brinda la oportunidad de un buen servicio y ofertas de viajes
+                      Nacionales e Internacionales. Ademas te<br>  hacemos vivir una experiencia memorable.</h2>
+
+              </article>
+
+              <aside class="contenido">
+                    
+                  <div class="info">
+
+                    <img src="./img/mujer.gif">
+
+                    <p> viaja solo, o con amigos y conoce gente nueva</p>
+
+                  </div>
+
+                  <div class="info1">
+
+                    <img src="./img/cartera.gif">
+
+                    <p> reserva tu plaza pagando con anticipacion</p>
+
+                  </div>
+                  
+                  <div class="info2">
+
+                    <img src="./img/calendario.gif">
+
+                    <p>Reserva con tranquilidad desde tu casa</p>
+
+                  </div>
+                  
+                  <div></div>
+
+              </aside>
+        
+        
+        </section>
+
+        <section class="formulario">
+
+          <div class="cajon">
+            <form>
+
+                     <h1>VUELOS AL MEJOR PRECIO</h1>
+
+                   <div class="radio">
+                       <input type="radio" name="seleccionar" id="" value="Solo Ida"><span class="radio"></span>
+                       <label for="Solo Ida">Solo Ida</label>
+                
+                       <input type="radio" name="seleccionar" id="" value="Ida y Vuelta"><span class="radio"></span>
+                       <label for="Ida y Vuelta">Ida y Vuelta</label>
+                   </div>
+
+                   <div class="datos">
+
+                       <label>Nombre*</label>
+                       <input type="text" id="nombre"><span class="barra"></span>
+
+                       <label>Destino*</label>
+                       <input type="text" id="destino"><span class="barra"></span>
+                
+                       <label>Origen*</label>
+                       <input type="text" id="origen" ><span class="barra"></span>
+                   </div>
+
+                   <div class="Fecha">
+                       <label>Ida</label>
+                       <input type="date" id="ida"><span class="barra"></span>
+                       <label>Vuelta</label>
+                       <input type="date" id="vuelta"><span class="barra"></span>
+                   
+                   </div>
+
+                   <div class="personas">
+
+                       <label>Numero de Personas*</label>
+                       <input type="number" id="nºdePersonas"><span class="barra"></span>
+            
+                   </div>
+
+                   <div class="button">
+                       <button id="registro" onclick="agregarPersonas()" type="reset">Solicitar Informacion</button>
+                       <button id="filtr" onclick="verPersonas()"type="reset">Filtrar</button>
+                
+                   </div>
+
+            </form>
+
+            <aside class="foto">
+
+                <img src="./img/fondoViajes.jpg">
+
+            </aside>
+
+            </div>
+
+            <div class="cajon1 cajon2">
+
+                <table class= "table" id="persona">
+
+                    <!-- <tr class="table1">
+
+                        <th>Nombre</th>
+                        <th>Destino</th>
+                        <th>Origen</th>
+                        <th>Ida</th>
+                        <th>Vuelta</th>
+                        <th>Nº de Personas</th>
+
+
+                    </tr>  -->
+            </table>
+
+            </div>    
+  
+        </section>
+
+        <section class="sitios1">
+
+             <article class="titulo"><h2>Viajes Nacionales</h2></article>
+
+             <article class="viajesNacionales">
+
+                <div class="viaje_1">
+
+                    <img src="./img/islasCanarias.jpeg">
+    
+                    <div class="texto">
+    
+                        <h3>Islas Canarias</h3>
+                        <h4>Desde $120</h4>
+    
+                    </div>
+                </div> 
+
+                <div class="viaje_2">
+
+                    <img src="./img/mallorca.jpg">
+    
+                    <div class="texto">
+    
+                        <h3>Mallorca</h3>
+                        <h4>Desde $150</h4>
+    
+                    </div>
+                </div>    
+
+                <div class="viaje_3">
+
+                    <img src="./img/galicia.jpg">
+    
+                    <div class="texto">
+    
+                        <h3>Galicia</h3>
+                        <h4>Desde $60</h4>
+    
+                    </div>
+                </div>   
+             </article>
+
+
+        </section>
+
+        <div class="titulo1"><h2>Viajes Internacionales</h2></div>
+
+        <section class="sitios">
+
+            <div class="viaje1">
+
+                <img src="./img/francia.jpg">
+
+                <div class="texto">
+
+                    <h3>Francia</h3>
+                    <h4>Desde $500</h4>
+
+                </div>
+            </div>    
+
+            <div class="viaje2">
+
+                    <img src="./img/inglaterra.jpg">
+    
+                    <div class="texto">
+    
+                        <h3>Inglaterra</h3>
+                        <h4>Desde $700</h4>
+
+                    </div>
+    
+            </div>
+
+            <div class="viaje3">
+
+                    <img src="./img/italia.jpg">
+        
+                        <div class="texto">
+        
+                            <h3>Italia</h3>
+                            <h4>Desde $600</h4>
+        
+                        </div>  
+                  
+            </div>
+            
+            
+            <div class="viaje4">
+
+                <img src="./img/dubai.jpg">
+
+                <div class="texto">
+
+                    <h3>Dubai</h3>
+                    <h4>Desde $1000</h4>
+
+                </div>
+            </div>    
+
+            <div class="viaje5">
+
+                    <img src="./img/tailandia.jpeg">
+    
+                    <div class="texto">
+    
+                        <h3>Tailandia</h3>
+                        <h4>Desde $1200</h4>
+
+                    </div>
+    
+            </div>
+
+                    <div class="viaje3">
+
+                        <img src="./img/australia.jpg">
+        
+                        <div class="texto">
+        
+                            <h3>Australia</h3>
+                            <h4>Desde $1200</h4>
+        
+                        </div>
+
+                    </div>    
+                  
+            </div>
+    
+
+        </section>
+        <footer>
+            
+        </footer>
+
+    </main>
+
+    <script src="calcular.js"></script>
+    
+</body>
+
+</html>

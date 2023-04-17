@@ -1,0 +1,838 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+
+    main {
+    
+    width: 100%;
+    height: 570vh;
+
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    /* header {
+
+        background-color: rgb(246, 241, 241);
+        color: darkorange;
+        width: 100%;
+        height: 7vh;
+        padding-left: 20px;
+
+        display: flex;
+        align-items: center;
+        font-family: cursive;
+    } */
+
+    .inicio {
+
+        background-image: url(./img/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        width: 100%;
+        height: 115vh;
+        background-color: aqua;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .inicio h1 {
+
+        font-size: 60px;
+        color: rgb(246, 9, 9);
+        padding-right: 240px;
+        padding-top: 20px;
+        text-shadow: 0 0 2px #8f8e8c, 0 0 4px #8f8e8c,  0 0 6px #8f8e8c;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        
+
+    }
+    .inicio h2 {
+
+        font-size: 40px;
+        padding-right: 100px;
+        padding-top: 150px;
+        line-height: 2;
+        color: white;
+        text-shadow: -2px 0 0 #8f8e8c, -4px 0 0 #8f8e8c, -6px 0 0 #8f8e8c;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+
+    }
+    .descripcion {
+
+        height: 80vh;
+        width: 100%;
+        /* background-color: bisque; */
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .parrafo {
+
+        height: 50vh;
+        width: 40%;
+        /* background-color: #ff8000; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .parrafo h1 {
+
+        font-size: 30px;
+        width: 60%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .parrafo h2 {
+
+        height: 30vh;
+        width: 80%;
+        font-weight: normal;
+        /* background-color: yellowgreen; */
+
+        display: flex;
+        align-items: center;
+    }
+
+    .contenido {
+
+        height: 70vh;
+        width: 45%;
+        padding-top: 20px;
+        /* background-color: aquamarine; */
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .info {
+
+        height: 30vh;
+        width: 30%;
+        border: 2px solid rgb(219, 216, 216);
+        border-radius: 5px;
+        /* background-color: #ff8000; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info img {
+
+        height: 18vh;
+        width: 70%;
+
+    }
+
+    .info1 {
+
+        height: 30vh;
+        width: 30%;
+        border: 2px solid rgb(219, 216, 216);
+        border-radius: 5px;
+        /* background-color: #30e855; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .info1 img {
+
+        height: 18vh;
+        width: 70%;
+
+    }
+
+    .info2 {
+
+        height: 30vh;
+        width: 30%;
+        border: 2px solid rgb(219, 216, 216);
+        border-radius: 5px;
+        /* background-color: #d24217; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .info2 img {
+
+        height: 18vh;
+        width: 70%;
+
+    }
+
+    p {
+
+        height: 8vh;
+        width: 92%;
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aliceblue; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario {
+
+        width: 100%;
+        height: 115vh;
+        padding-top: 30px;
+        background-color: rgb(228, 249, 248);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+
+    }
+    .cajon {
+
+        width: 90%;
+        height: 80vh;
+        /* background-color: rgb(15, 236, 122); */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .cajon1 {
+
+        display: none;
+        background-color: aqua;
+        
+    }
+    .cajon2 {
+
+        width: 31.5vw;
+    }
+    .table {
+
+        width: 31.5vw;
+        height: 8vh;
+        padding: 20px;
+        background-color: rgb(224, 237, 247);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .table tr th{
+
+        border: solid 1px #222327;
+        border-radius: 4px;
+        padding: 5px;
+        font-family: 'Inter', sans-serif;
+        
+    }
+
+    h1 {
+
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    form {
+
+        width: 32%;
+        height: 75vh;
+        background-color: white;
+        border: 3px solid rgb(235, 233, 233);
+        border-radius: 15px;
+        padding-left: 8px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .radio {
+
+        width: 20vw;
+        height: 6vh;
+        /* background-color: brown; */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      
+
+    }
+    .radio input {
+
+        width: 4vw;
+        height: 3vh;
+        padding-left: 20px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .radio label {
+
+        width: 35vw;
+        height: 3vh;
+        /* background-color: rgb(17, 215, 129); */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .datos {
+
+        width: 27vw;
+        height: 25vh;
+        /* background-color: aqua; */
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .datos input {
+
+        width: 27vw;
+        height: 4vh;
+        border-radius: 10px;
+        border: 3px solid rgb(235, 233, 233);
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+    .datos label {
+
+        width: 10vw;
+        height: 3.5vh;
+        /* background-color: rgb(17, 215, 129); */
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+    .Fecha {
+
+        width: 27vw;
+        height: 8vh;
+        /* background-color: rgb(227, 13, 92); */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .Fecha input {
+
+        width: 8vw;
+        height: 5vh;
+        border-radius: 10px;
+        border: 3px solid rgb(235, 233, 233);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+
+    }
+    .Fecha label {
+
+        width: 4vw;
+        height: 5vh;
+        /* background-color: rgb(17, 215, 129); */
+
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start ;
+        align-items: center;
+
+    }
+    .personas {
+
+        width: 27vw;
+        height: 8vh;
+        /* background-color: rgb(239, 170, 8); */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    
+    }
+    .personas input {
+
+        width: 15vw;
+        height: 4vh;
+        border-radius: 10px;
+        border: 3px solid rgb(235, 233, 233);
+        padding: 10px;
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+    .personas label {
+
+        width: 10vw;
+        height: 5vh;
+        /* background-color: rgb(17, 215, 129); */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .button {
+/* 
+        background-color: rgb(244, 67, 67); */
+        height: 7vh;
+        width: 20vw;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .button button {
+
+        height: 5vh;
+        width: 8vw;
+        background-color: rgb(90, 90, 240);
+
+    }
+
+    .foto {
+
+        /* background-color: yellow; */
+        width: 35vw;
+        height: 70vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto img {
+
+        object-fit: cover;
+        width: 80%;
+        height: 60vh;
+        border-radius: 10px;
+
+    }
+    .titulo h2 {
+
+        height: 10vh;
+        width: 100%;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sitios1 {
+
+        /* background-color: rgb(245, 10, 222); */
+        width: 100%;
+        height: 140vh;
+        padding-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .viajesNacionales {
+
+        height: 90vh;
+        width: 90%;
+        /* background-color: #ff8000; */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+
+    }
+
+    .viaje_1 {
+
+        height: 35vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        align-self: flex-start;
+
+    }
+    .viaje_1:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje_1 img {
+
+        object-fit: cover;
+        width: 70%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .viaje_2 {
+
+        height: 35vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        align-self: center;
+
+    }
+    .viaje_2:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje_2 img {
+
+        object-fit: cover;
+        width: 85%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+    .viaje_3 {
+
+        height: 35vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        align-self: flex-end;
+
+    } 
+    .viaje_3:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje_3 img {
+
+        object-fit: cover;
+        width: 68%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .titulo1 h2 {
+
+        height: 10vh;
+        width: 100%;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sitios {
+
+        /* background-color: rgb(189, 228, 34); */
+        width: 100%;
+        height: 115vh;
+        padding-top: 30px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .viaje1 {
+
+        height: 40vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+    }
+    .viaje1:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje1 img {
+
+        object-fit: cover;
+        width: 70%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .texto {
+
+        height: 7vh;
+        width: 30vw;
+        padding-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        
+    }
+    .texto h3 {
+
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .texto h4 {
+
+        width: 22%;
+        height: 4vh;
+        font-weight: normal;
+        background-color: rgb(240, 126, 126);
+        border: 2px solid black;
+        border-radius: 2px;
+        padding-left: 10px;
+        
+    }
+
+    .viaje2 {
+
+        height: 40vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+    }
+    .viaje2:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje2 img {
+
+        object-fit: cover;
+        width: 85%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+    .viaje3 {
+
+        height: 40vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+    } 
+    .viaje3:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje3 img {
+
+        object-fit: cover;
+        width: 68%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+    .viaje4 {
+
+        height: 40vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+    }
+    .viaje4:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje4 img {
+
+        object-fit: cover;
+        width: 70%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        
+    }
+    .viaje5:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje5 {
+
+        height: 40vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+        border-radius: 7px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+    }
+    .viaje5 img {
+
+        object-fit: cover;
+        width: 70%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        
+    }
+    .viaje6 {
+
+        height: 40vh;
+        width: 25%;
+        background-color: rgb(229, 231, 231);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+      
+
+    }
+    .viaje6:hover{
+     
+        background-color: rgb(104, 243, 246);
+
+    }
+    .viaje6 img {
+
+        object-fit: cover;
+        width: 70%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+       
+    }
+    footer {
+
+        background-color: black;
+        height: 5vh;
+        width: 100%;
+
+    }
+
