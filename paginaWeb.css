@@ -1,0 +1,127 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+.nav {
+
+   background-color: black;
+   height: 60px;
+   width: 100%;
+
+
+}
+
+.logo {
+
+   position: absolute;
+   padding: 20px 50px;
+   height: 40px;
+
+}
+a {
+
+   float: right;
+   text-decoration: none;
+   height: 40px;
+   color: rgb(208, 207, 207);
+   font-size: 15px;
+   padding-right: 150px;
+   padding-top: 25px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+
+}
+a:hover {
+
+   color: #343434;
+
+}
+article {
+
+   height: 87vh;
+   background-image: url("./imagenes/logoPantalla.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+  
+   display: flex;
+   justify-content: center;
+  
+
+}
+
+section {
+
+   flex: 50px;
+   padding: 10px;
+   color: white;
+   padding-left: 150px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+
+}
+
+section h1{
+
+   font-size: 55px;
+   
+}
+
+section h2{
+
+   font-size: 35px;
+   line-height: 7vh;
+   padding-bottom: 40px;
+
+}
+
+section h3 {
+
+   font-size: 25px;
+   line-height: 7vh;
+   padding-top: 40px;
+
+}
+footer {
+
+   height: 7vh;
+   width: 100%;
+   background-color: black;
+
+   display: flex;
+   justify-content: end;
+
+}
+
+.pie  {
+   
+   height: 5vh;
+   width: 100%;
+   color: white;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 10px;
+   text-decoration: none;
+   gap: 20px;
+   
+}
+.pie img {
+
+   height: 30px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
