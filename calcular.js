@@ -5,7 +5,7 @@ function agregarPersonas() {
     let nombre= document.getElementById("nombre");
     let destino= document.getElementById("destino");
     let origen= document.getElementById("origen");
-    let ida= document.getElementById("ida");
+    let fecha= document.getElementById("fecha");
     let nºdePersonas= document.getElementById("nºdePersonas");
 
     let persona = {
@@ -13,8 +13,7 @@ function agregarPersonas() {
            nombre_persona: nombre.value,
            destino_persona: destino.value,
            origen_persona: origen.value,
-           ida_persona: ida.value,
-           vuelta_persona: vuelta.value,
+           fecha_persona: fecha.value,
            nºdePersonas_persona: nºdePersonas.value,
 
     };
@@ -41,8 +40,7 @@ function verPersonas() {
         <th>Nombre</th>
         <th>Destino</th>
         <th>Origen</th>
-        <th>Ida</th>
-        <th>Vuelta</th>
+        <th>Fecha</th>
         <th>Nº de Personas</th>
 
 
@@ -53,15 +51,16 @@ function verPersonas() {
               
     for(let i=0; i<personas.length; i++){
 
-        if(personas[i].destino_persona.toLowerCase() == 'canarias' || personas[i].destino_persona.toLowerCase() == 'mallorca' || personas[i].destino_persona.toLowerCase() == 'galicia'){
+        if(personas[i].destino_persona.toLowerCase() == 'canarias' || 
+           personas[i].destino_persona.toLowerCase() == 'mallorca' || 
+           personas[i].destino_persona.toLowerCase() == 'galicia'){
 
         tabla.innerHTML +=
         `<tr>
             <th>${personas[i].nombre_persona}<th>
-            <th>${personas[i].destino_persona.toUpperCase() + personas[i].destino_persona.substring(1).toLowerCase()}<th>
-            <th>${personas[i].origen_persona.toUpperCase() + personas[i].origen_persona.substring(1).toLowerCase()}<th>
-            <th>${personas[i].ida_persona}<th>
-            <th>${personas[i].vuelta_persona}<th>
+            <th>${personas[i].destino_persona[0].toUpperCase() + personas[i].destino_persona.substring(1).toLowerCase()}<th>
+            <th>${personas[i].origen_persona[0].toUpperCase() + personas[i].origen_persona.substring(1).toLowerCase()}<th>
+            <th>${personas[i].fecha_persona}<th>
             <th>${personas[i].nºdePersonas_persona}<th>
         <tr>    
         `
