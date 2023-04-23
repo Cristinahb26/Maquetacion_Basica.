@@ -107,6 +107,7 @@ input {
 
     width: 277px;
     height: 35px;
+    padding-left: 10px;
 
 }
 .button {
@@ -263,6 +264,7 @@ footer {
     height: 100px;
     width: 1535px;
     word-spacing: 10px;
+    color: rgb(210, 209, 209);
     /* background-color: rgb(190, 186, 186); */
 
     display: flex;
