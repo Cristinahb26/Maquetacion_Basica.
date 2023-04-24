@@ -9,6 +9,8 @@
     display: grid;
     grid-template-columns: 600px 335px 600px;
     grid-template-rows: 372px 372px;
+    text-align: center;
+    color: white;
 
 }
 
