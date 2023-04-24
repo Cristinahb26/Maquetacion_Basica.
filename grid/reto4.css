@@ -1,0 +1,109 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+.area {
+
+    display: grid;
+    grid-template-areas: 
+    'header header imagen'
+    'aside contenido contenido'
+    'aside2 texto texto'
+    'footer footer footer';
+
+}
+.child_a {
+
+    grid-area: header;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    height: 52px;
+    padding-top: 10px;
+
+}
+.child_al {
+
+    grid-area: imagen;
+    background-color: rgb(91, 26, 26);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.child_b {
+
+    grid-area: aside;
+    background-color: rgb(255, 138, 13);
+    text-align: center;
+    height: 620px;
+
+    display: grid;
+    grid-template-areas: 'aside'
+                         'vacio'
+                         'aside2';
+
+}
+.aside {
+
+     grid-area: aside;
+     background-color: white;
+     color: rgb(255, 138, 13);
+     margin: 10px;
+     padding-top: 10px;
+    
+}
+.aside2 {
+
+    grid-area: aside2;
+    background-color: white;
+    color: rgb(255, 138, 13);
+    margin: 10px;
+    padding-top: 10px;
+
+}
+.child_c {
+
+    grid-area: contenido;
+    background-color: rgb(212, 71, 6);
+    color: white;
+    text-align: center;
+    height: 620px;
+
+    display: grid;
+    grid-template-areas: 'contenido contenido'
+                         'texto texto';
+
+}
+.contenido {
+
+    grid-area: contenido;
+    background-color: rgb(212, 71, 6);
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+.texto {
+
+    grid-area: texto;
+    background-color: rgb(212, 71, 6);
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+.child_d {
+
+    grid-area: footer;
+    background-color: rgb(91, 26, 26);
+    height: 52px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+
+}

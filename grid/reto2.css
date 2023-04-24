@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedor{
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 2fr;
+
+}
+
+.a{
+
+    background-color: greenyellow;
+    text-align: center;
+
+}
+.b{
+
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+}
+.c{
+
+    background-color: greenyellow;
+    text-align: center;
+
+}
+.d{
+
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+}
+.e{
+
+    background-color: greenyellow;
+    text-align: center;
+
+}
+.f {
+
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+}

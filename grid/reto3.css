@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.lineasNombradas {
+
+    height: 10vh;
+
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3] 1fr [x4];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3] 1fr [y4];
+
+}
+
+.header {
+
+    grid-column: x0 / x4;
+    grid-row: y0 / y1;
+
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    padding-top: 20px;
+
+}
+.contenido{
+
+    grid-column: x0 / x3;
+    grid-row: y1 / y3;
+
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: [xi0] 1fr [xi1] 1fr [xi2] 1fr[xi3] 1fr [xi4];
+    grid-template-rows: [yi0] 1fr [yi1] 1fr [yi2] 1fr [yi3] 1fr [yi4] 1fr [yi5] 1fr [yi6];
+
+}
+
+.hijo1 {
+
+    grid-column: xi0 / xi4;
+    grid-row: yi0 / yi2;
+
+    border: 1px solid white;
+    font-size:xx-large;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.hijo2 {
+
+    grid-column: xi0 / xi2;
+    grid-row: yi2 / yi6;
+
+    border: 1px solid white;
+    margin-right: 7px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+.hijo3 {
+
+    grid-column: xi2 / xi4;
+    grid-row: yi2 / yi6;
+
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.menu {
+
+    grid-column: x3 / x4;
+    grid-row: y1 / y3;
+
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: [xi3] 1fr [xi4];
+    grid-template-rows: [yi0] 1fr [yi1] 1fr [yi2] 1fr [yi3] 1fr [yi4];
+
+
+}
+.hijo4 {
+
+    grid-column: xi3 / xi4;
+    grid-row: yi0 / yi1;
+
+    font-size:xx-large;
+    border: 3px solid black;
+    margin-bottom: 7px;
+    padding-top: 40px;
+
+}
+.hijo5 {
+
+    grid-column: xi3 / xi4;
+    grid-row: yi1 / yi2;
+
+    background-color: black;
+    margin-bottom: 7px;
+    padding-top: 50px;
+
+}
+.hijo6 {
+
+    grid-column: xi3 / xi4;
+    grid-row: yi2 / yi3;
+
+    background-color: black;
+    margin-bottom: 7px;
+    padding-top: 50px;
+
+}
+.hijo7 {
+
+    grid-column: xi3 / xi4;
+    grid-row: yi3 / yi4;
+
+    background-color: black;
+    margin-bottom: 7px;
+    padding-top: 50px;
+
+}
+.footer {
+
+    grid-column: x0 / x4;
+    grid-row: y3 / y4;
+
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    height: 10vh;
+
+    display: grid;
+    grid-template-columns: [xi0] 1fr [xi1] 1fr [xi2] 1fr [xi3] 1fr [xi4];
+    grid-template-rows: [yi0] 1fr [yi1] 1fr [yi2] 1fr [yi3] 1fr [yi4];
+
+}
+.hijo8 {
+
+    grid-column: xi0 / xi2;
+    grid-row: yi0 / yi4;
+
+    border: 2px solid black;
+    margin-right: 7px;
+    padding-top: 20px;
+
+}
+.hijo9 {
+
+    grid-column: xi2 / xi4;
+    grid-row: yi0 / yi4;
+
+    border: 2px solid black;
+    padding-top: 20px;
+
+}

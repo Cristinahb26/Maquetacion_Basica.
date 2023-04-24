@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedor{
+
+    display: grid;
+    grid-template-columns: 600px 335px 600px;
+    grid-template-rows: 372px 372px;
+
+}
+
+.a{
+
+    background-color: greenyellow;
+
+}
+.b{
+
+    background-color: orange;
+
+}
+.c{
+
+    background-color: orangered;
+
+}
+.d{
+
+    background-color: red;
+
+}
+.e{
+
+    background-color: blue;
+
+}
+.f {
+
+    background-color: yellow;
+
+}
